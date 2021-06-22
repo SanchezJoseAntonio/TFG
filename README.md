@@ -6,5 +6,5 @@ Una forma previa de llevar a cabo la anotación fue utilizando código en Python
 ## Anotación de lecturas utilizando código en Python (Totalmente y parcialmente solapadas)
 Otra forma previa de llevar a cabo la anotación fue utilizando código en Python, aquí proporcionado. En este caso, solo se consideraron las lecturas parcialmente solapadas se consideraron parcialmente intergénicas (% de lectura fuera de la anotación) y parcialmente anotadas (% de lectura dentro de la anotación).
 ## Archivo de distribución de lecturas
-Este archivo contiene el código que permite obtener la distribución de las lecturas en las anotaciones según el porcentaje de la lectura necesario para que se considere anotada y no como intergénico.
+Este archivo contiene el código que permite obtener la distribución de las lecturas en las anotaciones según el porcentaje de la lectura necesario para que se considere anotada y no como intergénico.  
 **Todos los _scripts_ escritos en Python requieren que las coordenadas genómicas de los archivos que se pasen como input estén ordenados numéricamente**
