@@ -15,9 +15,9 @@ if [ ! -d ./DATA ]
 #tRNA
 #Copio el archivo de alineamientos
 #En estas variables guardo la jerarquía (salvo intergenicos)
-FIRST="tRNA_repeats"
-REST="tRNA sncRNA repeats pseudogene lncRNA"
-LAST="protein_coding"
+FIRST="tRNA"
+REST="sncRNA repeats pseudogene lncRNA CDS utr3 utr5 "
+LAST="intron"
 cp $1 Copy$1
 circAnno/bin/circAnno -i 0 ./${FIRST}.bed12 ./$1 | grep -v "intergenic" > ./DATA/${FIRST}$2.txt
 #Con esta linea cojo los identificadores de cada pico que no han sido intergenicos y los elimino del archivo de alineamientos
